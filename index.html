@@ -2,8 +2,73 @@
 <html>
 <head>
 	<title>Hola mundo</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
 </head>
 <body>
-<h1>Hola MUndo</h1>
+
+	<div id="hola"> 
+		<div id ="div1">
+			
+			<img src="sep.png" height="70" id="sep" class="header" alt="1">	
+			
+				
+			<img src="unnamed.jpg" height="70" id="tec" class=" header" alt="2">
+			<div class="header">
+				<p id="titulo1">
+					Sistema Integral de Información
+				</p><br>
+				<p id="titulo2">
+					INSTITUTO TECNOLÓGICO DE PARRAL
+				</p>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<div id="div2" class="div2">
+
+		 <p id="p1" class="menu">
+		 	PERSONAL DEL INSTITUTO
+		 </p>
+		 
+		 <p id="p2" class="menu" onclick="openForm()">
+		 	ALUMNOS
+		 </p>
+		
+		 <p id="p3" class="menu">
+		 	ASPIRANTES
+		 </p>
+	 </div>
+
+	 <img src="tecno.png" id="tecno" width="100" alt="3">
+
+
+	 <div class="form-popup" id="myForm">
+  <form action="/perfil.html" class="form-container">
+    <h1>Introduce los datos correspondientes</h1>
+
+    <label for="email"><b>No. de control:</b></label>
+    <input type="text" placeholder="" name="email" required>
+
+    <label for="psw"><b>NIP:</b></label>
+    <input type="password" placeholder="" name="psw" required>
+
+    <button type="submit" class="btn">ACCESO</button>
+    
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
 </body>
 </html>
