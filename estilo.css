@@ -83,19 +83,23 @@
     #p1{
     	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
     	font-weight: bold;
-	 	font-size: 20px;		
+	 	font-size: 22px;		
     	color: #FF8000 ;
     	margin-top: 50px;
+    	text-transform: capitalize;
+	font-variant-caps: small-caps;
     }
 
 	#p2{
     	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
     	font-weight: bold;
-	 	font-size: 20px;	
+	 	font-size: 22px;	
 	 	text-align: center;	
     	color: #FF8000 ;
     	margin-top: 50px;
     	margin-left: 20px;
+    	text-transform: capitalize;
+	font-variant-caps: small-caps;
     }
     #p6{
     	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
@@ -105,6 +109,8 @@
 	 	text-align: center;	
     	color: #FF8000 ;
     	margin-top: 50px;
+    	text-transform: capitalize;
+	font-variant-caps: small-caps;
     	
     }
     #p3{
@@ -115,6 +121,8 @@
     	color: #FF8000 ;
     	margin-top: 50px;
     	margin-right: 50px;
+    	text-transform: capitalize;
+	font-variant-caps: small-caps;
     }
 
     #div2 p:hover {
@@ -142,6 +150,7 @@
   		margin-left: auto;
   		margin-right: auto;
   		margin-top: 30px;
+  		margin-bottom: 50px;
      }
 
 	{box-sizing: border-box;}
@@ -219,5 +228,28 @@ label{
 }
 
 .form-container{
+
+}
+
+#nave{
+	color: #04b6e8;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15;
+	font-weight: bold;
+	
+	font-variant-caps: small-caps;
+
+}
+
+#sistem{
+	color: #014e82;
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-variant-caps: small-caps;
+
 
 }
